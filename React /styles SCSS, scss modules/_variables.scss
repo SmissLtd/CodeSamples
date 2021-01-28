@@ -1,0 +1,39 @@
+@use './fonts' as *;
+
+$primary-color: #00c4b3;
+$container-color: #84b9ba;
+$white-color: #ffffff;
+$separator-color: #efefef;
+$black-color: #000000;
+$border-color: #445a7b;
+$table-border-color: #a9a9a9;
+$background-color: #efefef;
+$placeholder-color: #00000066;
+$placeholder-color-mozilla: #0d0c0c66;
+$link-color: rgb(0, 194, 178);
+$error-color: #f71313;
+$warning-color: #ff7e61;
+$icon-color: #919ba0;
+$neutral-behavior-color: #919ba0;
+
+$light-grey: #979797;
+
+$font-family: 'Rubik';
+$placeholder-color: #d8d8d8;
+$select-border-color: #a5a5a5;
+$select-time-border-color: #979797;
+$upload-text-color: #4a4a4a;
+$time-border-input: #979797;
+$active-days-color: #000000;
+$shadow-color: #c4c4c4;
+$text-tooltip-color: #414141;
+$canceled-background-color: #ffdede;
+$canceled-color: #ff5b5c;
+$completed-background-color: #d2ffe8;
+$completed-color: #39da8a;
+$paused-background-color: #ffeed9;
+$paused-color: #fdac41;
+$skipped-background-color: #ccf5f8;
+$skipped-color: #00cfdd;
+$puzzle-color: #616161;
+$answers-container-color: #35a1db;

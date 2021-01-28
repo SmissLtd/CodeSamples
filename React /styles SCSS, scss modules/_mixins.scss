@@ -1,0 +1,51 @@
+@use './variables' as *;
+
+$mobile: 320px;
+$mobile-middle: 375px;
+$mobile-large: 767px;
+$tablet: 768px;
+$laptop: 1024px;
+$laptopL: 1360px;
+
+@mixin for-laptopL {
+  @media (max-width: $laptopL) {
+    @content;
+  }
+}
+
+@mixin for-laptop {
+  @media (max-width: $laptop) {
+    @content;
+  }
+}
+
+@mixin for-tablet {
+  @media (max-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin for-mobile-large {
+  @media (max-width: $mobile-large) {
+    @content;
+  }
+}
+
+@mixin for-mobile-middle {
+  @media (max-width: $mobile-middle) {
+    @content;
+  }
+}
+
+@mixin for-mobile {
+  @media (max-width: $mobile) {
+    @content;
+  }
+}
+
+@mixin goallyCheckBox {
+  width: 17px;
+  height: 17px;
+  border: 1px solid $black-color;
+  border-radius: 4px;
+}

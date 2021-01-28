@@ -1,0 +1,29 @@
+@use '../../../../shared/styles/mixins' as *;
+
+.viewTeam {
+  display: flex;
+  overflow: auto;
+  max-width: 50%;
+
+  .team {
+    margin: 15px;
+    padding: 10px;
+    cursor: pointer;
+
+    &.select {
+      border-bottom: 2px solid black;
+      font-weight: bold;
+    }
+  }
+}
+
+@include for-mobile-portret {
+  .viewTeam {
+    max-width: 100%;
+
+    .team {
+      padding: 3px;
+      margin: 10px;
+    }
+  }
+}
